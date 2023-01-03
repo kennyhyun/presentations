@@ -4,6 +4,7 @@ paginate: true
 html: true
 style: |
   section pre code {
+    font-size: 1rem;
     --marpit-root-font-size: 17px;
   }
   section {
