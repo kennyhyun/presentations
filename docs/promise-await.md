@@ -2,6 +2,10 @@
 theme: gaia
 paginate: true
 html: true
+style: |
+  section pre code {
+    --marpit-root-font-size: 17px;
+  }
 -->
 
 # Promise/await
