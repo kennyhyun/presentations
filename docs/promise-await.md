@@ -4,7 +4,7 @@ paginate: true
 html: true
 style: |
   pre {
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 -->
 
