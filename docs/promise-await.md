@@ -3,8 +3,8 @@ theme: gaia
 paginate: true
 html: true
 style: |
-  pre {
-    font-size: 0.6rem;
+  section pre code {
+    font-size: 1rem;
   }
 -->
 
