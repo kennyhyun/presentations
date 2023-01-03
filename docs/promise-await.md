@@ -2,6 +2,10 @@
 theme: gaia
 paginate: true
 html: true
+style: |
+  pre {
+    font-size: 2rem;
+  }
 -->
 
 # Promise/await
