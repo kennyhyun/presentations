@@ -31,7 +31,7 @@ style: |
 
 ## using callback
 
-```js [3-100]
+```js {3-100}
 const fs = require('fs')
 
 fs.readFile('file.md', 'utf-8', (err, content) => {
@@ -59,7 +59,7 @@ Note the nested structure.
 
 ## es6 promise
                 
-```js [3-010]
+```js {3-100}
 const { promises: fsp } = require('fs')
 
 fsp.readFile('file.md', 'utf-8')
@@ -79,7 +79,7 @@ fsp.readFile('file.md', 'utf-8')
 
 ## es6 promise (concurrency)
 
-```js [3-010]
+```js {3-100}
 const { promises: fsp } = require('fs')
 
 Promise.all([
@@ -97,7 +97,7 @@ Promise.all([
 
 ## es7 await
 
-```js [3-010]
+```js {3-100}
 const { promises: fsp } = require('fs')
 
 (async () => {
@@ -118,7 +118,7 @@ const { promises: fsp } = require('fs')
 
 ## es7 await (concurrency)
 
-```js [3-010]
+```js {3-100}
 const { promises: fsp } = require('fs')
 
 Promise.all([
@@ -141,7 +141,7 @@ Promise.all([
 
 ### Async returns promise
 
-```js [6-010]
+```js {6-10}
 const { promises: fsp } = require('fs')
 
 const printJsonFile = async (file, enc = 'utf-8') =>
