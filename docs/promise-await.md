@@ -1,3 +1,9 @@
+<!--
+theme: gaia
+paginate: true
+html: true
+-->
+
 # Promise/await
 
 Oct 2017, Kenny Yeo 
