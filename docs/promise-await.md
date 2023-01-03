@@ -7,7 +7,7 @@ style: |
     --marpit-root-font-size: 17px;
   }
   section {
-    font-size: 21px;
+    font-size: 27px;
   }
 -->
 
@@ -80,11 +80,9 @@ readFile('file.md', 'utf-8')
 });
 ```
 
-<a target="_"
-href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">
-Promise.all</a> and <a target="_"
-href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race">
-race</a> can be also used for handling multiple async functions
+<a target="_" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"
+>Promise.all</a> and <a target="_" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race"
+>race</a> can be also used for handling multiple async functions
 
 ---
 
