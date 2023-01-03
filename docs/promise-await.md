@@ -2,10 +2,6 @@
 theme: gaia
 paginate: true
 html: true
-style: |
-  section pre code {
-    font-size: 1rem !important;
-  }
 -->
 
 # Promise/await
@@ -22,6 +18,12 @@ Contents
 ---
 
 ## traditional node asynchronous
+
+<style scoped>
+code {
+   font-size: 1rem;
+}
+</style>
 
 ```js
 const fs = require('fs')
@@ -47,6 +49,12 @@ utility can be used for handling multiple async functions
 ---
 
 ## es6 promise
+
+<style scoped>
+code {
+   font-size: 1rem;
+}
+</style>
 
 ```js
 const fs = require('fs')
@@ -77,6 +85,12 @@ race</a> can be also used for handling multiple async functions
 
 ## es6 promise
 
+<style scoped>
+code {
+   font-size: 1rem;
+}
+</style>
+
 ```js
 const fs = require('fs')
 const promisify = require('es6-promisify')
@@ -97,6 +111,12 @@ Promise.all([
 ---
 
 ## es6 promise
+
+<style scoped>
+code {
+   font-size: 1rem;
+}
+</style>
 
 ```js
 const fs = require('fs')
@@ -120,6 +140,12 @@ readFile('file.md', 'utf-8')
 ---
 
 ## es7 await
+
+<style scoped>
+code {
+   font-size: 1rem;
+}
+</style>
 
 ```js
 const fs = require('fs')
