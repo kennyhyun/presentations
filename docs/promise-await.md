@@ -6,6 +6,9 @@ style: |
   section pre code {
     --marpit-root-font-size: 17px;
   }
+  section {
+    font-size: 21px;
+  }
 -->
 
 # Promise/await
@@ -47,8 +50,7 @@ fs.readFile('file.md', 'utf-8', (err, content) => {
 })
 ```
 
-<a href="https://caolan.github.io/async/v3/docs.html#waterfall" target="_blank">async</a>
-utility can be used for handling multiple async functions
+<a href="https://caolan.github.io/async/v3/docs.html#waterfall" target="_blank">async</a> utility can be used for handling multiple async functions
 
 ---
 
@@ -80,8 +82,7 @@ readFile('file.md', 'utf-8')
 
 <a target="_"
 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">
-Promise.all</a> and
-<a target="_"
+Promise.all</a> and <a target="_"
 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race">
 race</a> can be also used for handling multiple async functions
 
