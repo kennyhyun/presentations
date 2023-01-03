@@ -31,7 +31,7 @@ fs.readFile('file.md', 'utf-8', (err, content) => {
 })
 ```
 
-<a href="https://caolan.github.io/async/docs.html#waterfall" target="_blank">async</a>
+<a href="https://caolan.github.io/async/v3/docs.html#waterfall" target="_blank">async</a>
 utility can be used for handling multiple async functions
 
 ---
